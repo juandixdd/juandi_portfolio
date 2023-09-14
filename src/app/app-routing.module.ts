@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { PresentationComponent } from './components/presentation/presentation.component';
+import { LandingComponent } from './components/landing/landing.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: PresentationComponent,
+    component: LandingComponent,
   },
   { path: '', redirectTo: '', pathMatch: 'full' },
 ];
