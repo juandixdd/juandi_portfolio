@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --dark-grey: #322f3e;
+  --fuchsia: #e63c6d;
+  --beige: #f5b494;
+  --yellow: #ede7a5;
+  --green: #abdecb;
+  --white: #fff;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--dark-grey);
+  color: var(--white);
+}
