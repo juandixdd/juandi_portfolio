@@ -12,4 +12,29 @@
   color: var(--fuchsia);
   font-size: 1.3rem;
   line-height: 2rem;
+  transition: 0.3s;
 }
+
+.floating-menu-item:hover {
+  color: var(--green);
+}
+
+.social-media {
+  display: flex;
+  color: var(--fuchsia);
+  gap: 0.5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: var(--fuchsia);
+  transition: transform 0.3s;
+}
+
+.social-media a:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
