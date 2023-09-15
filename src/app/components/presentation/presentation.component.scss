@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 10rem;
 }
 
 .data-container {
@@ -12,7 +13,7 @@
   align-items: center;
 }
 .presentation-container {
-  width: 70%;
+  width: 60%;
   padding: 5rem;
 }
 
@@ -30,12 +31,12 @@
 }
 
 .img-container {
-  width: 30%;
-  padding-right: 10rem;
+  width: 40%;
 }
 
 .img-container img {
   width: 100%;
+  margin-top: -5rem;
 }
 
 .actions {
