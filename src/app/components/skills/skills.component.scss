@@ -1,0 +1,44 @@
+span {
+  color: var(--fuchsia);
+}
+.principal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-container {
+  width: 70%;
+  display: flex;
+}
+
+.about-me-container {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  width: 50%;
+}
+
+.skills-container {
+  width: 40%;
+//   margin-top: 4.5rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+}
+
+.divisor {
+  border-top: 1px solid var(--white);
+  width: 15rem;
+  height: 1px;
+  margin-left: 1rem;
+  margin-top: 5px;
+}
+
+.about-me-container p {
+//   text-align: justify;
+}
