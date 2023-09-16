@@ -1,44 +1,64 @@
 span {
   color: var(--fuchsia);
 }
-.principal-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.data-container {
-  width: 70%;
-  display: flex;
-}
-
-.about-me-container {
-  padding-right: 5rem;
-  padding-left: 5rem;
-  width: 50%;
-}
-
-.skills-container {
-  width: 40%;
-//   margin-top: 4.5rem;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-.title-container {
-  display: flex;
-  align-items: center;
-}
 
 .divisor {
-  border-top: 1px solid var(--white);
+  border-top: 1px solid var(--fuchsia);
   width: 15rem;
   height: 1px;
   margin-left: 1rem;
   margin-top: 5px;
 }
 
-.about-me-container p {
-//   text-align: justify;
+.principal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
 }
+
+.data-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+.about-me-container {
+  width: 70%;
+  font-size: 1.1rem;
+  padding-left: 5rem;
+}
+
+.title-container{
+  display: flex;
+  align-items: center;
+}
+
+.img-container {
+  width: 30%;
+}
+
+.img-container img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.img-container img:hover{
+  transform: scale(1.1);
+}
+
+.skill-list {
+  display: flex;
+  gap: 5rem;
+}
+
+.skill-list li {
+  list-style: none;
+}
+
+.arrow-icon {
+  color:  var(--fuchsia);
+}
+
+
+
+
